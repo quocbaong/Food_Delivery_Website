@@ -1,0 +1,74 @@
+[
+    { "id": 1, "name": "Phở", "restaurant": "Phở Hòa", "address": "123 Lê Lợi", "price": 50000, "stars": 4.5, "favorite": false, "image": "pho.jpg", "description": "Phở là món bún nước thơm ngon của Việt Nam, được chế biến từ nước dùng hầm xương ngọt ngào, bánh phở mềm mại và thịt tươi ngon. Món ăn mang đến sự kết hợp hoàn hảo giữa hương vị đậm đà và rau sống tươi mát, tạo nên một trải nghiệm ẩm thực tuyệt vời." },
+    { "id": 2, "name": "Bún Chả", "restaurant": "Bún Chả Đắc Kim", "address": "456 Trần Hưng Đạo", "price": 60000, "stars": 4.8, "favorite": true, "image": "buncha.jpg", "description": "Bún chả là một món ăn truyền thống nổi tiếng của Hà Nội, gồm có bún tươi, chả (thịt heo nướng), và nước chấm đặc trưng. Thịt được chế biến bằng cách ướp gia vị và nướng trên than hoa, tạo nên hương vị thơm ngon và hấp dẫn. " },
+    { "id": 3, "name": "Gỏi cuốn", "restaurant": "Gỏi cuốn Bà Huyện", "address": "789 Nguyễn Thái Bình", "price": 30000, "stars": 4.7, "favorite": false, "image": "goicuon.jpg", "description": "Gỏi cuốn, hay còn gọi là nem cuốn, là một món ăn nhẹ phổ biến của Việt Nam. Món này bao gồm các nguyên liệu tươi ngon như bánh tráng, tôm, thịt lợn, bún, và rau sống được cuộn lại thành từng cuốn. " },
+    { "id": 4, "name": "Cơm Tấm", "restaurant": "Cơm Tấm Mộc", "address": "321 Nguyễn Văn Cừ", "price": 40000, "stars": 4.6, "favorite": true, "image": "comtam.jpg", "description": "Cơm tấm là một món ăn nổi tiếng đến từ miền Nam Việt Nam, đặc biệt là TP.Hồ Chí Minh. Món này được làm từ cơm gạo tấm (gạo vỡ), thường được ăn kèm với nhiều loại thực phẩm như sườn nướng, bì (da heo thái mỏng), chả (giò lụa) và trứng ốp la. " },
+    { "id": 5, "name": "Bánh mì", "restaurant": "Bánh mì Huỳnh Hoa", "address": "654 Phan Đình Phùng", "price": 25000, "stars": 4.9, "favorite": false, "image": "banhmi.jpg", "description": "Bánh mì là một loại bánh sandwich đặc trưng của Việt Nam, thường được làm từ bánh mì Pháp. Bánh mì thường có vỏ giòn và ruột mềm, được nhồi với nhiều loại nhân khác nhau như thịt heo, thịt gà, chả, pate, và các loại rau sống như dưa leo, cà rốt, ngò rí." },
+    { "id": 6, "name": "Mì Quảng", "restaurant": "Mì Quảng Ếch", "address": "987 Lê Văn Sỹ", "price": 55000, "stars": 4.4, "favorite": true, "image": "mi quang.jpg", "description": "Mì Quảng là món mì đặc sản của miền Trung Việt Nam, đặc biệt ở tỉnh Quảng Nam. Món này được làm từ sợi mì gạo dày, thường có màu vàng do được trộn bột với nghệ. Mì Quảng thường được ăn kèm với các loại thịt như gà, tôm, heo, và đôi khi có cả thịt bò." },
+    {
+        "id": 7,
+        "name": "Hủ tiếu",
+        "restaurant": "Hủ Tiếu Nam Vang Nhân Quán",
+        "address": "159 Nguyễn Trãi",
+        "price": 45000,
+        "stars": 4.5,
+        "favorite": false,
+        "image": "hutieu.jpg",
+        "description": "Hủ tiếu Nam Vang là món ăn đặc trưng với nước dùng trong, ngọt thanh từ xương, kết hợp với sợi hủ tiếu dai và các loại topping như tôm, gan, thịt bằm, trứng cút. Món ăn mang hương vị phong phú và đậm chất miền Nam."
+      },
+      {
+        "id": 8,
+        "name": "Bánh xèo",
+        "restaurant": "Bánh Xèo Mười Xiềm",
+        "address": "78 Cách Mạng Tháng 8",
+        "price": 40000,
+        "stars": 4.6,
+        "favorite": true,
+        "image": "banhxeo.jpg",
+        "description": "Bánh xèo là món bánh chiên vàng giòn với lớp vỏ mỏng từ bột gạo, nghệ và nước cốt dừa, bên trong có tôm, thịt và giá. Ăn kèm với rau sống và nước mắm chua ngọt tạo nên hương vị thơm ngon, hấp dẫn."
+      },
+      {
+        "id": 9,
+        "name": "Cháo lòng",
+        "restaurant": "Cháo Lòng Nguyễn Công Trứ",
+        "address": "22 Nguyễn Công Trứ",
+        "price": 35000,
+        "stars": 4.3,
+        "favorite": false,
+        "image": "chaolong.jpg",
+        "description": "Cháo lòng là món ăn dân dã gồm cháo trắng nấu nhừ kết hợp với lòng heo, dồi, gan, tim, cật... thơm mùi hành phi, ăn kèm với tiêu, ớt, nước mắm gừng rất đặc trưng và ấm bụng."
+      },
+      {
+        "id": 10,
+        "name": "Bánh cuốn",
+        "restaurant": "Bánh Cuốn Gia Truyền Thanh Trì",
+        "address": "67 Lý Thường Kiệt",
+        "price": 30000,
+        "stars": 4.4,
+        "favorite": true,
+        "image": "banhcuon.jpg",
+        "description": "Bánh cuốn là món ăn sáng nhẹ nhàng của miền Bắc, với lớp bánh tráng mỏng cuộn thịt băm, mộc nhĩ. Món ăn được ăn nóng kèm với chả quế, rau thơm và nước mắm pha chua ngọt."
+      },
+      {
+        "id": 11,
+        "name": "Bún bò Huế",
+        "restaurant": "Bún Bò Huế Đông Ba",
+        "address": "99 Nguyễn Thị Minh Khai",
+        "price": 55000,
+        "stars": 4.7,
+        "favorite": false,
+        "image": "bunbo.jpg",
+        "description": "Bún bò Huế nổi tiếng với nước dùng cay nồng, đậm đà từ xương bò và sả, ăn kèm với bún sợi to, thịt bò, giò heo và chả Huế. Món ăn có màu sắc bắt mắt và hương vị đặc trưng của miền Trung."
+      },
+      {
+        "id": 12,
+        "name": "Xôi mặn",
+        "restaurant": "Xôi Mặn Võ Văn Tần",
+        "address": "43 Võ Văn Tần",
+        "price": 25000,
+        "stars": 4.2,
+        "favorite": true,
+        "image": "xoi.jpg",
+        "description": "Xôi mặn là món ăn sáng phổ biến, gồm xôi nếp dẻo ăn kèm với chả, lạp xưởng, trứng cút, ruốc, mỡ hành và nước tương. Đây là món ăn tiện lợi, no bụng và giàu năng lượng."
+      }
+  ]
