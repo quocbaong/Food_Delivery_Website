@@ -1,4 +1,4 @@
-<h1 align="center">Tomato Delivery</h1>
+<h1 align="center">Food Delivery</h1>
   
   
   <p align="center">
@@ -13,6 +13,7 @@
 
 #Food Del - Website đặt món ăn
 Food Del là nền tảng đặt món ăn trực tuyến hiện đại, cho phép người dùng dễ dàng khám phá thực đơn đa dạng, đặt món nhanh chóng, đồng thời cung cấp giao diện quản trị dành cho quản lý món ăn và đơn hàng một cách trực quan và tiện lợi.
+
 🌐 **Truy cập ngay**:
 
 ![Picture](https://raw.githubusercontent.com/fr0st-iwnl/assets/main/thumbnails/tomato.png)
