@@ -53,16 +53,29 @@ const StoreContextProvider = (props) => {
     }
 
 
-    useEffect(()=>{
+    useEffect(() => {
         async function loadData() {
             await fetchFoodList();
-            if (localStorage.getItem("token")) {
-                setToken(localStorage.getItem("token"));
-                await loadCartData(localStorage.getItem("token"));
+            const storedToken = localStorage.getItem("token");
+            if (storedToken) {
+                setToken(storedToken);
+                try {
+                    const res = await axios.post(url + "/api/cart/get", {}, { headers: { token: storedToken } });
+                    setCartItems(res.data.cartData || {}); // fallback nếu null
+                } catch (err) {
+                    console.error("Lỗi khi load cart:", err);
+                    setCartItems({});
+                }
             }
         }
         loadData();
-    },[])
+    }, []);
+
+    useEffect(() => {
+        if (token) {
+            loadCartData(token);
+        }
+    }, [token]);
 
 
     const contextValue = {

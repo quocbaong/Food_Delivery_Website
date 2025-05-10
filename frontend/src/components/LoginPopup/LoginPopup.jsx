@@ -24,27 +24,27 @@ const LoginPopup = ({setShowLogin}) => {
 
 
   const onLogin = async (event) => {
-    event.preventDefault()
+    event.preventDefault();
     let newUrl = url;
-    if (currState==="Login"){
-      newUrl += "/api/user/login"
-    }
-    else{
-      newUrl += "/api/user/register"
-    }
-
-    const response = await axios.post(newUrl,data);
-
-    if (response.data.success){
-      setToken(response.data.token);
-      localStorage.setItem("token",response.data.token)
-      setShowLogin(false)
-    }
-    else{
-      alert(res.data.message)
+    if (currState === "Login") {
+      newUrl += "/api/user/login";
+    } else {
+      newUrl += "/api/user/register";
     }
 
-  }
+    try {
+      const response = await axios.post(newUrl, data);
+      if (response.data.success) {
+        setToken(response.data.token);
+        localStorage.setItem("token", response.data.token);
+        setShowLogin(false);
+      } else {
+        alert(response.data.message);
+      }
+    } catch (err) {
+      alert("Đã có lỗi xảy ra khi đăng nhập: " + err.message);
+    }
+  };
 
 
 
