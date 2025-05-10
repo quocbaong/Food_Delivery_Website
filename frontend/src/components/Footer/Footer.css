@@ -50,11 +50,13 @@
     background-color: #323232;
 }
 
-:root .tomatologofooter {
-    filter: var(--logos-filter); 
+:root .deliveryweb {
+    filter: none !important;
+    height: 250px;
+    padding-left: 50px;
 }
 
-.lightcolors .tomatologofooter {
+.lightcolors .deliveryweb {
     filter: none; 
 }
 
