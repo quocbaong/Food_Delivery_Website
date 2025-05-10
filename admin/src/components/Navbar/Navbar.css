@@ -19,6 +19,7 @@
 .navbar .profile{
     width: 45px;
     height: 45px;
+    filter: none !important;
   }
 
 #visual-toggle-button{
